@@ -28,9 +28,13 @@ class HomeController extends Controller
                 return redirect()->back();
             }
         }
+
     }
 
-
+    public function homepage()
+    {
+        return view('home.homepage');
+    }
 
 
 }
