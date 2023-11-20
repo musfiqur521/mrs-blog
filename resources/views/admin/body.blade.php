@@ -63,7 +63,8 @@
         </div>
       </div>
     </section>
-    <section class="no-padding-bottom">
+
+    {{-- <section class="no-padding-bottom">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-4">
@@ -81,8 +82,9 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="no-padding-bottom">
+    </section> --}}
+
+    {{-- <section class="no-padding-bottom">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6">
@@ -127,8 +129,9 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="no-padding-bottom">
+    </section> --}}
+
+    {{-- <section class="no-padding-bottom">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-4">
@@ -229,8 +232,9 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="margin-bottom-sm">
+    </section> --}}
+
+    {{-- <section class="margin-bottom-sm">
       <div class="container-fluid">
         <div class="row d-flex align-items-stretch">
           <div class="col-lg-4">
@@ -280,8 +284,9 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="no-padding-bottom">
+    </section> --}}
+
+    {{-- <section class="no-padding-bottom">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6">
@@ -343,8 +348,9 @@
           </div>
         </div>
       </div>
-    </section>
-    <section>
+    </section> --}}
+
+    {{-- <section>
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-4">
@@ -376,4 +382,4 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}

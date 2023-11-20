@@ -5,11 +5,14 @@
   </head>
   <body>
     @include('admin.header')
+
     <div class="d-flex align-items-stretch">
       <!-- Sidebar Navigation-->
       @include('admin.sidebar')
       <!-- Sidebar Navigation end-->
-    @include('admin.body')
+        @include('admin.body')
+
        @include('admin.footer')
+       </div>
   </body>
 </html>
