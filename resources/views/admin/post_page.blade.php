@@ -3,7 +3,7 @@
   <head>
     @include('admin.css')
 
-    <style type="text/css">
+<style type="text/css">
     .post_title
     {
         font-size: 30px;
@@ -21,7 +21,7 @@
         width: 200px;
     }
 
-    </style>
+</style>
 
   </head>
   <body>
