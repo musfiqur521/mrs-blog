@@ -44,7 +44,7 @@
                 </x-app-layout>
              </li>
 
-             <li><a href="blog.html">My Post</a></li>
+             <li><a href="{{ url('my_post') }}">My Post</a></li>
 
              <li><a href="{{ url('create_post') }}">Create Psot</a></li>
 
