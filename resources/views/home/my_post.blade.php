@@ -38,6 +38,15 @@
 
         @include('home.header')
 
+        @if (session()->has('message'))
+
+        <div class="alert alert-success">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">X</button>
+            {{ session()->get('message') }}
+        </div>
+
+        @endif
+
         @foreach ($data as $data)
 
 
@@ -46,6 +55,9 @@
             <img class="img_deg" src="/postimage/{{ $data->image }}">
             <h4 class="title_deg">{{ $data->title }}</h4>
             <p class="des_deg">{{ $data->description }}</p>
+
+            <a onclick="return confirm('are you sure to delete this ?')" href="{{ url('my_post_del',$data->id) }}" class="btn btn-danger">Delete</a>
+
         </div>
 
         @endforeach

@@ -97,4 +97,17 @@ class HomeController extends Controller
 
         return view('home.my_post',compact('data'));
     }
+
+    public function my_post_del($id)
+    {
+       // $user=Auth()->user();
+       // $userid = $user->id;
+        $data=Post::find($id);
+        $data->delete();
+
+        //Alert::info('Congrats','You have Deleted the data Successfully');
+
+        return redirect()->back()->with('message','Post deleted successfully');
+    }
+
 }
