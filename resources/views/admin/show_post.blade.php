@@ -56,6 +56,8 @@
                 <th>Image</th>
                 <th>Delete</th>
                 <th>Edit</th>
+                <th>Status Accept</th>
+                <th>Status Reject</th>
             </tr>
         @foreach ($post as $post)
             <tr>
@@ -73,6 +75,13 @@
                 </td>
                 <td>
                     <a href="{{ url('edit_page',$post->id) }}" class="btn btn-success">Edit</a>
+                </td>
+
+                <td>
+                    <a onclick="return confirm('are you sure to Accept this post ?')" href="{{ url('accept_post',$post->id) }}" class="btn btn-outline-secondary">Accept</a>
+                </td>
+                <td>
+                    <a onclick="return confirm('are you sure to Reject this post ?')" href="{{ url('reject_post',$post->id) }}" class="btn btn-primary">Reject</a>
                 </td>
 
             </tr>
